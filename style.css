@@ -1,0 +1,15 @@
+body {
+ background-image: url("http://localhost:8888/tiempo/images/fondo.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.weather-icon {
+	padding-top: 3em;
+	padding-left: 1em;
+ }
+
+.navbar{
+	background-color: #F2EBC7;
+}
