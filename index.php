@@ -27,7 +27,7 @@ $currentTime = time();
         <article class="media">
              <div class="media-left">
                 <figure class="image is-64x64"><img 
-                    src="http://localhost:8888/tiempo/images/<?php echo $data->weather[0]->icon; ?>.png"
+                    src="http://openweathermap.org/img/w/<?php echo $data->weather[0]->icon; ?>.png"
                     class="weather-icon"  />
                 </figure>
             </div>
@@ -48,8 +48,8 @@ $currentTime = time();
                     </div>
              </article>
                 <footer class="card-footer">
-                    <a class="card-footer-item">Maxima: <?php echo $data->main->temp_max; ?>°C</a>
                     <a class="card-footer-item">Minima: <?php echo $data->main->temp_min; ?>°C </a>
+                    <a class="card-footer-item">Maxima: <?php echo $data->main->temp_max; ?>°C</a>
                     <a class="card-footer-item">Nubes: <?php echo $data->clouds->all; ?></a>
                     <a class="card-footer-item">Viento: <?php echo $data->wind->speed; ?> km/h</a>
                 </footer>
